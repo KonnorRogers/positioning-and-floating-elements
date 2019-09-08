@@ -1,0 +1,22 @@
+{
+  "name": "positioning-and-floating-elements",
+  "version": "1.0.0",
+  "description": "A recreation a new york times article",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParamagicDev/positioning-and-floating-elements.git"
+  },
+  "author": "konnor rogers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ParamagicDev/positioning-and-floating-elements/issues"
+  },
+  "homepage": "https://github.com/ParamagicDev/positioning-and-floating-elements#readme",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
