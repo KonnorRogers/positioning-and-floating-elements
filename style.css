@@ -1,0 +1,133 @@
+/* universal */
+* {
+  box-sizing: border-box;
+  font-family: nyt-cheltenham, georgia, "times new roman";
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  z-index: 200;
+  background: white;
+}
+
+.navbar > * {
+  padding: 0.5rem;
+}
+
+.nav-nyt-title {
+  margin: 0 auto;
+}
+
+.nav-login {
+  margin-right: 2rem;
+}
+
+.navbar .fas.fa-bars {
+  margin-left: 0.5rem;
+  margin-right: 0.3rem;
+}
+
+.navbar .fas:hover, .navbar .fas:focus {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.nav-cosmos {
+  font-weight: bold;
+}
+
+.nav-cosmos:hover {
+  text-decoration: underline;
+}
+
+.nav-subscribe, .nav-login {
+  background: #6288a5;
+  color: white;
+  margin-left: 0.5rem;
+  font-size: 12px;
+  padding: 0.5rem 0.7rem;
+  font-weight: bold;
+  border: 1px solid #326891;
+  border-radius: 3px;
+}
+
+.nav-subscribe:focus, .nav-subscribe:hover,
+.nav-login:focus, .nav-login:hover {
+  transition: all 0.6s ease;
+  background: #326891;
+}
+
+/* container */
+
+.container {
+  text-align: center;
+  margin: 5rem 0 auto;
+}
+
+.container * {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* headers */
+h1 {
+  font-weight: 700;
+  font-style: italic;
+  width: 500px;
+}
+
+/* images */
+
+.image {
+  width: 75%;
+}
+.image img {
+  width: 100%;
+  height: auto;
+}
+
+.image .description {
+  padding-top: 1rem;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: left;
+  margin: 0;
+  width: 80%;
+}
+
+.image .description .credit {
+  padding-left: 0.5rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* Articles */
+
+section {
+  margin-top: 3rem;
+  width: 40%;
+  text-align: left;
+}
+
+.author {
+  font-weight: bold;
+}
+
+.author-name {
+  text-decoration: lightgray underline;
+}
+
+.date-social {
+  display: flex;
+
+}
