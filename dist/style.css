@@ -142,4 +142,14 @@ section {
 .social {
   margin-left: auto;
   width: 50%;
+  display: flex;
+}
+
+.social img {
+  width: 1em;
+  height: 1em;
+}
+
+.fa-comment-alt {
+  flex: initial;
 }
