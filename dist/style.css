@@ -137,14 +137,16 @@ section {
 
 .date {
   width: 50%;
+  align-self: center;
+  text-align: left;
 }
 
 .social {
-  margin-left: auto;
-  width: 50%;
+  width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 12px;
 }
 
 .social img {
@@ -152,11 +154,30 @@ section {
   height: 1em;
 }
 
-.fa-comment-alt {
-  flex: initial;
+.social .fab, .social .fas, .social a {
+  padding: 0.5rem;
+  background: #eeeeee;
+  border-radius: 9999px;
+  border: 1px solid white;
+}
+
+.social .fab:hover, .social .fas:hover, .social a:hover {
+  background: white;
+  border: 1px solid lightgray;
+}
+
+.social a {
+  padding: 0.25rem 0.5rem;
+}
+.social .fa-facebook-f {
+  padding: 0.5rem 0.65rem;
 }
 
 .speechbubble {
   width: 2em;
   height: 2em;
+}
+
+.social *:hover {
+  cursor: pointer;
 }
