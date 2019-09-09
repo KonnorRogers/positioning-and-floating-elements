@@ -143,6 +143,8 @@ section {
   margin-left: auto;
   width: 50%;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .social img {
@@ -152,4 +154,9 @@ section {
 
 .fa-comment-alt {
   flex: initial;
+}
+
+.speechbubble {
+  width: 2em;
+  height: 2em;
 }
