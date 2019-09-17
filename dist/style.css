@@ -361,3 +361,7 @@ section a:hover {
   background: #326891;
   transition: all ease-in-out 0.5s;
 }
+
+footer {
+  margin-top: 8rem;
+}
